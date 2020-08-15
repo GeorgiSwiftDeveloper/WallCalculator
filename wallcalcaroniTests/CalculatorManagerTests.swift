@@ -46,5 +46,28 @@ class CalculatorManagerTests: XCTestCase {
     func testOperand_isNil(){
         XCTAssertNil(sut.currentOperand)
     }
+    
+    func testOperand_WhenGivenOparand() {
+        sut.insert(value: 20)
+        sut.set(operand: .subtract)
+        XCTAssertNotNil(sut.currentOperand)
+    }
+    
+    
+    func testCalculation_ForValues(){
+        sut.insert(value: 15)
+        sut.set(operand: .subtract)
+        sut.insert(value: 5)
+        XCTAssertEqual(sut.calculate(), 10)
+    
+    }
+    
+    func testClear_WhenCalledClearValue(){
+        sut.insert(value: 20)
+        _ = sut.clearValues()
+        XCTAssertEqual(sut.valueB, 0)
+        XCTAssertEqual(sut.valueA, 0)
+        XCTAssertEqual(sut.valueEntryArray, [])
+    }
 
 }

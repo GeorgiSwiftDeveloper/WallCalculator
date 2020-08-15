@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6A4221B624E76E6C00E9D1AF /* CalculatorManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4221B524E76E6C00E9D1AF /* CalculatorManagerTests.swift */; };
+		6A4221B824E87B8500E9D1AF /* CalculatorViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4221B724E87B8500E9D1AF /* CalculatorViewControllerTest.swift */; };
 		719392621FFEDC6D00E5E849 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719392611FFEDC6D00E5E849 /* AppDelegate.swift */; };
 		719392671FFEDC6D00E5E849 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 719392651FFEDC6D00E5E849 /* Main.storyboard */; };
 		719392691FFEDC6D00E5E849 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 719392681FFEDC6D00E5E849 /* Assets.xcassets */; };
@@ -29,6 +30,7 @@
 
 /* Begin PBXFileReference section */
 		6A4221B524E76E6C00E9D1AF /* CalculatorManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorManagerTests.swift; sourceTree = "<group>"; };
+		6A4221B724E87B8500E9D1AF /* CalculatorViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewControllerTest.swift; sourceTree = "<group>"; };
 		6ABF1F9824E7626C0033A4F0 /* wallcalcaroniTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wallcalcaroniTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6ABF1F9C24E7626C0033A4F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7193925E1FFEDC6D00E5E849 /* wallcalcaroni.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wallcalcaroni.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,6 +67,7 @@
 			children = (
 				6ABF1F9C24E7626C0033A4F0 /* Info.plist */,
 				6A4221B524E76E6C00E9D1AF /* CalculatorManagerTests.swift */,
+				6A4221B724E87B8500E9D1AF /* CalculatorViewControllerTest.swift */,
 			);
 			path = wallcalcaroniTests;
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A4221B824E87B8500E9D1AF /* CalculatorViewControllerTest.swift in Sources */,
 				6A4221B624E76E6C00E9D1AF /* CalculatorManagerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
